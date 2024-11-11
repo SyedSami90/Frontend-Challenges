@@ -1,0 +1,118 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFDDE1;
+}
+
+#mainpg { /*This is the central page*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    max-width: 960px;
+    min-width: 320px;
+    margin: 3rem auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.ntext {
+    font-size: 16px;
+    font-family: 'Outfit';
+    font-weight: 300;
+    color: #333333;
+    line-height: 1.6;
+}
+
+#omelettepic {
+    max-width: 100%;
+    border-radius: 15px;  
+}
+
+.leftside {
+    text-align: left;
+}
+
+#omelettetitle {
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+    font-size: 35px;
+    color: hsl(24, 5%, 18%);
+}
+
+
+#prepcontainer {
+    background-color: #faf4f5;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1.25rem 0;
+}
+
+.subtitle {
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 1rem;
+}
+
+#prepcontainer h2:first-of-type { /*This selects preparation time text*/
+    color: hsl(332, 51%, 32%);
+    font-size: 24px;
+    margin-bottom: 0.6rem;
+}
+
+
+ul, ol{
+    list-style-position: outside;
+    padding-left: 20px;
+    
+}
+
+ul li,ol li {
+    margin-bottom: 0.8rem;
+    padding-left: 10px;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+
+.bottomborder {
+    border-bottom: 1.5px solid #d3d3d3;
+    margin: 1.5rem 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0 10px;
+    margin-top: 1rem;
+}
+
+table tr {
+    border-bottom: 1px solid #ccc;
+}
+
+table tr:last-child {
+    border-bottom: none;
+}
+ 
+table td {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Outfit';
+    font-weight: 300;
+    color: #333333;
+}
+
+tr td:nth-child(2) {
+    color:hsl(14, 45%, 36%);
+    font-weight: bold;
+}
