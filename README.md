@@ -51,8 +51,8 @@ In the future, I plan to improve the responsiveness of this project as I learn m
 
 ## Author
 
-- Github- [SyedSami](https://github.com/SyedSami)
-- frontendmentor- [@SyedSami](https://github.com/SyedSami)
+- Github- [SyedSami](https://github.com/SyedSami90)
+- frontendmentor- [@SyedSami](https://github.com/SyedSami90)
 
 
 
